@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="11dp"
+        android:text="@string/Sucess"
+        android:textColor="#009688"
+        android:textSize="100dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="name:"
+        android:textSize="50dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/etRollNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:hint="Rollno"
+        android:layout_marginTop="11dp"/>
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="UPDATE"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"/>
+
+
+
+</LinearLayout>
